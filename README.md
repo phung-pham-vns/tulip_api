@@ -139,7 +139,3 @@ docker build -t tulip-api .
 # Run the container
 docker run -p 8000:8000 -v $(pwd)/models:/models tulip-api
 ```
-
-## License
-
-[Add your license information here]
