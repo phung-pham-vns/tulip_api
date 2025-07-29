@@ -45,18 +45,17 @@ cd tulip_api
 3. Create a virtual environment and install dependencies:
 ```bash
 uv venv
-source .venv/bin/activate  # On Unix/macOS
-# or
-.venv\Scripts\activate  # On Windows
-
-uv pip install -e ".[dev]"  # Install with development dependencies
+source .venv/bin/activate
+uv pip install -e ".[dev]"
 ```
 
 4. Download TULIP model checkpoints:
 ```bash
 # Place the checkpoints in the models/open_clip directory
 mkdir -p models/open_clip
+
 # Download your specific TULIP checkpoints and place them in models/open_clip/
+[Checkpoint Download](https://github.com/tulip-berkeley/open_clip?tab=readme-ov-file#model-checkpoints)
 ```
 
 ## Usage
