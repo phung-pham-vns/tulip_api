@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+torch
+timm
+transformers
+Pillow
+open_clip_torch @ git+https://github.com/tulip-berkeley/open_clip.git
