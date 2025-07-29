@@ -105,29 +105,6 @@ with open("image.jpg", "rb") as f:
 embedding = response.json()["embedding"]
 ```
 
-## Development
-
-This project uses modern Python development tools:
-
-- [Black](https://black.readthedocs.io/) for code formatting
-- [Ruff](https://docs.astral.sh/ruff/) for linting and import sorting
-- [Pytest](https://docs.pytest.org/) for testing
-
-Format code:
-```bash
-black src tests
-```
-
-Lint code:
-```bash
-ruff check src tests
-```
-
-Run tests:
-```bash
-pytest
-```
-
 ## Docker Deployment
 
 Build and run the Docker container:
